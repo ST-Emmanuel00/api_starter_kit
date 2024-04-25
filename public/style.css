@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos específicos */
+/* Agrega aquí estilos adicionales según las necesidades de tu aplicación */
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para las filas pares */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el hover */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Establecer altura del html y body al 100% */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer altura del main al 100% del viewport */
+main {
+    min-height: 100vh;
+}
+
+/* Si deseas que el footer esté siempre en la parte inferior */
+/* footer {
+    
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+} */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #333;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
